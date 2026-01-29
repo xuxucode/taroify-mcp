@@ -11,7 +11,7 @@ async function startMcpServer() {
     description: "Provides documentation and example for Taroify components",
   });
 
-  console.log("服务启动成功");
+  console.error("服务启动成功");
 
   registerTaroifyTools(server);
 
